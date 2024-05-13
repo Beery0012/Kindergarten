@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Kindergarten </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #contact {
+            margin-top: 50px;
+            background: #666;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-school"></i> Kindergarten</a>
+
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="about.html">about</a>
+            <a href="education.html">education</a>
+            <a href="teacher.html">teacher</a>
+            <a href="gruopmembers.html">members</a>
+            <a href="contact.html">contact</a>
+        </nav>
+        <div class="icon">
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+    </header>
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>contact</span> us</h1>
+
+
+        <div class="row">
+
+            <form action="">
+                <h3>get in touch</h3>
+                <div class="inputBox">
+                    <input type="text" placeholder="your name" pattern="[A-Za-z\s]+" required>
+                    <input type="email" placeholder="your email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required>
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="your number" required>
+                    <input type="text" placeholder="your subject" pattern="[A-Za-z\s]+" required>
+                </div>
+                <textarea placeholder="your message" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn">
+            </form>
+
+        </div>
+    </section>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
